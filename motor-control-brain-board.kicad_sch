@@ -5699,6 +5699,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 78.74) (xy 165.1 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab95c3a-aced-4af4-8150-bcb9a4d602ad")
+	)
+	(wire
+		(pts
 			(xy 74.93 29.21) (xy 83.82 29.21)
 		)
 		(stroke
@@ -6129,16 +6139,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 165.1 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a8144bb-94fd-4d3f-acd6-d847d0b216a7")
-	)
-	(wire
-		(pts
 			(xy 74.93 21.59) (xy 81.28 21.59)
 		)
 		(stroke
@@ -6396,6 +6396,16 @@
 			(type default)
 		)
 		(uuid "836e4763-19eb-4a6d-982f-867f2528ff42")
+	)
+	(wire
+		(pts
+			(xy 137.16 86.36) (xy 165.1 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85dac84e-0082-47ff-a305-bd49cdbe68e6")
 	)
 	(wire
 		(pts
@@ -6887,16 +6897,6 @@
 		)
 		(uuid "ca87c176-703a-4bb9-ab92-272ba0943dec")
 	)
-	(wire
-		(pts
-			(xy 137.16 86.36) (xy 165.1 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb3a3095-2c22-4d1b-80fd-ce709cd12cbb")
-	)
 	(polyline
 		(pts
 			(xy 138.43 154.94) (xy 140.97 154.94)
@@ -7059,23 +7059,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 78.74) (xy 165.1 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea972723-1bdf-4db2-ad1b-77bdd8ba18b9")
-	)
-	(wire
-		(pts
 			(xy 137.16 83.82) (xy 165.1 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eaf00a25-b57f-4cf9-ad30-518298f042ef")
+		(uuid "ecfd6cd9-d579-4061-8965-eb1b316229a4")
 	)
 	(wire
 		(pts
@@ -7249,6 +7239,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 81.28) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd607f67-c187-40d5-b3ce-43b21c9e8729")
+	)
+	(wire
+		(pts
 			(xy 137.16 71.12) (xy 165.1 71.12)
 		)
 		(stroke
@@ -7407,7 +7407,7 @@
 		)
 		(uuid "3aadf439-3026-44f0-9cfb-b37bd39a2f9c")
 	)
-	(label "PWM_B_LO"
+	(label "PWM_A_H"
 		(at 142.24 81.28 0)
 		(effects
 			(font
@@ -7417,7 +7417,7 @@
 		)
 		(uuid "3f87db8e-90ed-4c69-bf3c-6359de72d772")
 	)
-	(label "PWM_A_HI"
+	(label "PWM_C_H"
 		(at 142.24 71.12 0)
 		(effects
 			(font
@@ -7537,7 +7537,7 @@
 		)
 		(uuid "7cfa6c13-0157-4aaa-aba1-20cf3ab014de")
 	)
-	(label "PWM_C_LO"
+	(label "PWM_A_L"
 		(at 142.24 83.82 0)
 		(effects
 			(font
@@ -7587,7 +7587,7 @@
 		)
 		(uuid "902ce518-02a6-41d0-889e-63e4723972b4")
 	)
-	(label "PWM_C_HI"
+	(label "PWM_B_H"
 		(at 142.24 76.2 0)
 		(effects
 			(font
@@ -7747,7 +7747,7 @@
 		)
 		(uuid "c5ad0b77-1300-4e75-b4ac-bf520fdbe400")
 	)
-	(label "PWM_A_LO"
+	(label "PWM_B_L"
 		(at 142.24 78.74 0)
 		(effects
 			(font
@@ -7757,7 +7757,7 @@
 		)
 		(uuid "c6c32cc5-99ed-43e7-a5a2-70e961e8db0a")
 	)
-	(label "PWM_B_HI"
+	(label "PWM_C_L"
 		(at 142.24 73.66 0)
 		(effects
 			(font
@@ -13840,36 +13840,6 @@
 				(justify right)
 			)
 		)
-		(pin "TIM8_CH2N" input
-			(at 137.16 81.28 0)
-			(uuid "a6a546ab-e34d-4473-8142-b477535eb3ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TIM8_CH1N" input
-			(at 137.16 78.74 0)
-			(uuid "20a19b2b-0279-4de5-a422-d385375b295c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TIM8_CH3N" input
-			(at 137.16 83.82 0)
-			(uuid "21c05a66-84b5-42f2-90ad-dbf3e654665d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "GPIO_PC15" input
 			(at 99.06 73.66 180)
 			(uuid "433a66ad-5148-4df0-9595-0a6121b71931")
@@ -13910,16 +13880,6 @@
 				(justify left)
 			)
 		)
-		(pin "TIM8_CH3" input
-			(at 137.16 76.2 0)
-			(uuid "a87057a1-bd9f-472c-998e-3c2e770432d6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "GPIO_PC2" input
 			(at 99.06 81.28 180)
 			(uuid "b2fdf32d-7c5e-49aa-afcf-9e9a464f61f9")
@@ -13940,49 +13900,9 @@
 				(justify left)
 			)
 		)
-		(pin "TIM8_CH2" input
-			(at 137.16 73.66 0)
-			(uuid "ad2b195b-d163-4bf2-be41-8b7df8b7121e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TIM8_CH1" input
-			(at 137.16 71.12 0)
-			(uuid "c79128db-3fd2-45e6-86d9-f19d18844fb1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "GPIO_PC0" input
 			(at 99.06 76.2 180)
 			(uuid "d0a81a75-2dd3-48ff-83ab-80c682db27dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C2_SDA" input
-			(at 99.06 118.11 180)
-			(uuid "f171d019-c9a1-4584-93ad-afaf91d4cdec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C2_SCL" input
-			(at 99.06 120.65 180)
-			(uuid "3601999a-c1d6-422f-89e5-6fc5df6192c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14150,8 +14070,88 @@
 				(justify left)
 			)
 		)
+		(pin "HRTIM1_CHE2" input
+			(at 137.16 78.74 0)
+			(uuid "91ad884a-d0ef-4b5a-8da3-f11d5479ffb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 99.06 118.11 180)
+			(uuid "1d50ca39-88aa-4ccb-89cb-0fce91e29d68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SCL" input
+			(at 99.06 120.65 180)
+			(uuid "8603931b-e251-46f0-9d8a-b72f45556e73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HRTIM1_CHA1" input
+			(at 137.16 81.28 0)
+			(uuid "9b577fa4-b4ff-48da-a505-cb45eb100754")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HRTIM1_CHA2" input
+			(at 137.16 83.82 0)
+			(uuid "88e3eabf-d86c-4e26-8d3b-7d2f6bdbb45d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HRTIM1_CHE1" input
+			(at 137.16 76.2 0)
+			(uuid "4cfaad99-57c8-47c4-95f9-e3085960f33e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HRTIM1_CHF1" input
+			(at 137.16 71.12 0)
+			(uuid "74ccf307-f269-49d4-8d34-0beec15ace7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HRTIM1_CHF2" input
+			(at 137.16 73.66 0)
+			(uuid "114f0e02-396a-413e-9d21-9d842d9f6d0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164"
 					(page "2")
 				)
@@ -14263,7 +14263,7 @@
 			)
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164"
 					(page "4")
 				)
@@ -14425,7 +14425,7 @@
 			)
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164"
 					(page "3")
 				)
