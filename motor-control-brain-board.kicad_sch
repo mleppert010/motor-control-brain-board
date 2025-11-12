@@ -5339,6 +5339,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 134.62) (xy 99.06 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b06843-df2f-4115-a473-9a897f4b564b")
+	)
+	(wire
+		(pts
 			(xy 208.28 26.67) (xy 208.28 27.94)
 		)
 		(stroke
@@ -5739,16 +5749,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 134.62) (xy 99.06 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dd034c4-48aa-41ea-8f5c-bb6ce76e9891")
-	)
-	(wire
-		(pts
 			(xy 191.77 106.68) (xy 217.17 106.68)
 		)
 		(stroke
@@ -5946,6 +5946,16 @@
 			(type default)
 		)
 		(uuid "58079817-8357-43e3-b1b6-732cc5a3cb98")
+	)
+	(wire
+		(pts
+			(xy 60.96 132.08) (xy 99.06 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a65faa3-0c76-43f1-a99e-b1dda701ed29")
 	)
 	(wire
 		(pts
@@ -6939,16 +6949,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 132.08) (xy 99.06 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1f1c714-7153-4e4e-86db-7385cdcc48de")
-	)
-	(wire
-		(pts
 			(xy 242.57 64.77) (xy 234.95 64.77)
 		)
 		(stroke
@@ -7338,7 +7338,7 @@
 		(uuid "1fc79582-b905-4319-843b-fedfc5b9089a")
 	)
 	(label "CANL"
-		(at 93.98 134.62 180)
+		(at 93.98 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7558,7 +7558,7 @@
 		(uuid "80cd7370-d69c-4765-85da-b7be4cc82a06")
 	)
 	(label "CANH"
-		(at 93.98 132.08 180)
+		(at 93.98 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14011,7 +14011,7 @@
 			)
 		)
 		(pin "CANH" input
-			(at 99.06 132.08 180)
+			(at 99.06 134.62 180)
 			(uuid "170acfb1-77c2-4a2d-af8e-d4fc22a8f303")
 			(effects
 				(font
@@ -14021,7 +14021,7 @@
 			)
 		)
 		(pin "CANL" input
-			(at 99.06 134.62 180)
+			(at 99.06 132.08 180)
 			(uuid "f4c95552-6f9d-4b6f-aec1-8331bd6f4405")
 			(effects
 				(font
