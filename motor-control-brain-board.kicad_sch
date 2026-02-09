@@ -4955,6 +4955,16 @@
 	)
 	(text "5V TOL"
 		(exclude_from_sim no)
+		(at 19.304 70.866 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8f0b74f-1d48-4897-abb1-494719b0ec5c")
+	)
+	(text "5V TOL"
+		(exclude_from_sim no)
 		(at 18.288 161.29 0)
 		(effects
 			(font
@@ -5188,7 +5198,7 @@
 		(uuid "3431fee9-f386-4ed7-8231-50bfe36da63e")
 	)
 	(no_connect
-		(at 27.94 88.9)
+		(at 27.94 86.36)
 		(uuid "35b8aa7d-0876-4132-b5b1-7bbaec9b95f0")
 	)
 	(no_connect
@@ -6979,6 +6989,16 @@
 		)
 		(uuid "ca87c176-703a-4bb9-ab92-272ba0943dec")
 	)
+	(wire
+		(pts
+			(xy 35.56 58.42) (xy 33.02 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfa094f-7f3a-4e7d-a760-831dff06207d")
+	)
 	(polyline
 		(pts
 			(xy 138.43 154.94) (xy 140.97 154.94)
@@ -7048,16 +7068,6 @@
 			(type default)
 		)
 		(uuid "dd23e317-aa00-46a5-8412-ecb4615dcc9d")
-	)
-	(wire
-		(pts
-			(xy 33.02 83.82) (xy 99.06 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd7c2b56-9828-413e-beee-a9400749be79")
 	)
 	(wire
 		(pts
@@ -7358,16 +7368,6 @@
 			(justify left bottom)
 		)
 		(uuid "0f38444e-b41d-41d8-9b94-02bf109f675e")
-	)
-	(label "GPIO_7"
-		(at 93.98 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1acea771-be0d-459d-a728-8e41b01e0153")
 	)
 	(label "USB_CC2"
 		(at 77.47 29.21 0)
@@ -9246,7 +9246,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x10_MountingPin")
-		(at 27.94 71.12 0)
+		(at 27.94 68.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9255,7 +9255,7 @@
 		(dnp no)
 		(uuid "460e5913-2882-4f1e-9c24-10f0be77b2f9")
 		(property "Reference" "J1"
-			(at 27.94 58.42 0)
+			(at 27.94 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9263,7 +9263,7 @@
 			)
 		)
 		(property "Value" "GPIO"
-			(at 25.4 72.39 90)
+			(at 25.4 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9271,7 +9271,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_SM10B-GHS-TB_1x10-1MP_P1.25mm_Horizontal"
-			(at 27.94 71.12 0)
+			(at 27.94 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9280,7 +9280,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 71.12 0)
+			(at 27.94 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,7 +9289,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 27.94 71.12 0)
+			(at 27.94 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10781,6 +10781,72 @@
 			(project ""
 				(path "/7261d109-8405-40e9-921c-d95f374a7164"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 35.56 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7edf346e-a8db-4d03-8ab5-2c61e6e2de7c")
+		(property "Reference" "#PWR0100"
+			(at 31.75 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 39.37 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 35.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03fc20fb-b15c-4f0f-959b-76a2fa1e8dbb")
+		)
+		(instances
+			(project "motor-control-brain-board"
+				(path "/7261d109-8405-40e9-921c-d95f374a7164"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -13907,16 +13973,6 @@
 		(pin "GPIO_PC2" input
 			(at 99.06 81.28 180)
 			(uuid "b2fdf32d-7c5e-49aa-afcf-9e9a464f61f9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_PC3" input
-			(at 99.06 83.82 180)
-			(uuid "4b06defa-ebc4-4e2a-9032-f20d4e8a6e5f")
 			(effects
 				(font
 					(size 1.27 1.27)

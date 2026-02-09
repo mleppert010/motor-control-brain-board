@@ -640,6 +640,10 @@
       {
         "netclass": "Digital",
         "pattern": ".*\\/LPUART.*"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": ".*\\/OSC.*"
       }
     ]
   },
