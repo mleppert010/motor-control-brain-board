@@ -4901,6 +4901,16 @@
 		)
 		(uuid 3f841283-089d-4185-bdf5-934a5e27d220)
 	)
+	(text "5V TOL\nRX ONLY"
+		(exclude_from_sim no)
+		(at 18.034 143.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "25e3086d-b7f3-4369-ae2b-722fa750b6b0")
+	)
 	(text "Analog"
 		(exclude_from_sim no)
 		(at 138.43 104.14 0)
@@ -4912,6 +4922,16 @@
 		)
 		(uuid "4e5c1b50-a3b1-4469-a692-1375e3e9ba67")
 	)
+	(text "3V3 ONLY"
+		(exclude_from_sim no)
+		(at 36.83 96.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "732caa57-425c-4e68-bddc-259da2df7c51")
+	)
 	(text "Power"
 		(exclude_from_sim no)
 		(at 180.34 80.01 0)
@@ -4922,6 +4942,26 @@
 			(justify left bottom)
 		)
 		(uuid "b8fd1a85-785a-4a4a-8f3a-6a3121ef0c18")
+	)
+	(text "5V TOL"
+		(exclude_from_sim no)
+		(at 19.05 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7c4b997-4200-40f6-af40-889446ee4b5e")
+	)
+	(text "5V TOL"
+		(exclude_from_sim no)
+		(at 18.288 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cbfa9f15-9ccf-407e-ac75-a8fad88cc48e")
 	)
 	(junction
 		(at 57.15 177.8)
@@ -5056,6 +5096,12 @@
 		(uuid "9f1dfe3b-3bc2-4ddf-aebf-0db197412617")
 	)
 	(junction
+		(at 83.82 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2ef89b5-8749-4300-9fad-d14ce2d5afaa")
+	)
+	(junction
 		(at 92.71 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5156,10 +5202,6 @@
 	(no_connect
 		(at 27.94 125.73)
 		(uuid "3c6368e6-4479-4815-ab41-bf43639a8ab4")
-	)
-	(no_connect
-		(at 81.28 173.99)
-		(uuid "8ea44f8d-9e89-4b9b-908c-ab333452c994")
 	)
 	(no_connect
 		(at 170.18 91.44)
@@ -5829,6 +5871,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 161.29) (xy 99.06 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42af5fb5-54d7-4a53-8abd-a216dfb58d59")
+	)
+	(wire
+		(pts
 			(xy 83.82 60.96) (xy 59.69 60.96)
 		)
 		(stroke
@@ -6239,7 +6291,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 177.8) (xy 83.82 177.8)
+			(xy 57.15 177.8) (xy 85.09 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6669,7 +6721,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 177.8) (xy 83.82 173.99)
+			(xy 85.09 177.8) (xy 85.09 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6859,6 +6911,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 161.29) (xy 83.82 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e03196-f752-4898-8d2b-b9d0e93a7ac1")
+	)
+	(wire
+		(pts
 			(xy 81.28 171.45) (xy 99.06 171.45)
 		)
 		(stroke
@@ -7039,7 +7101,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 161.29) (xy 99.06 161.29)
+			(xy 33.02 161.29) (xy 83.82 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7086,6 +7148,16 @@
 			(type default)
 		)
 		(uuid "edf53724-7192-4cd0-9bd5-272793a923c8")
+	)
+	(wire
+		(pts
+			(xy 81.28 173.99) (xy 83.82 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7610f9-6f3f-4130-81e0-5c226b43bad5")
 	)
 	(wire
 		(pts
@@ -7149,7 +7221,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 173.99) (xy 99.06 173.99)
+			(xy 85.09 173.99) (xy 99.06 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7267,7 +7339,7 @@
 		)
 		(uuid "fe66e9a3-a836-4908-b862-a03a903f7e86")
 	)
-	(label "SPI_MOSI"
+	(label "SPI1_MOSI"
 		(at 93.98 92.71 180)
 		(effects
 			(font
@@ -7317,7 +7389,7 @@
 		)
 		(uuid "1d8bc694-ff88-452d-a937-00b3d057ec17")
 	)
-	(label "UART1_TX"
+	(label "LPUART1_TX"
 		(at 93.98 143.51 180)
 		(effects
 			(font
@@ -7387,7 +7459,7 @@
 		)
 		(uuid "38286f8f-7db5-4930-ba8c-cf1eba282d34")
 	)
-	(label "SPI_NSS"
+	(label "SPI1_NSS"
 		(at 93.98 100.33 180)
 		(effects
 			(font
@@ -7547,7 +7619,7 @@
 		)
 		(uuid "7f506786-4729-4c78-a1ac-a8af3602f163")
 	)
-	(label "SPI_MISO"
+	(label "SPI1_MISO"
 		(at 93.98 95.25 180)
 		(effects
 			(font
@@ -7697,7 +7769,7 @@
 		)
 		(uuid "bb8ce367-6960-4ee3-b871-c2b737aba8c7")
 	)
-	(label "SPI_SCK"
+	(label "SPI1_SCK"
 		(at 93.98 97.79 180)
 		(effects
 			(font
@@ -7797,7 +7869,7 @@
 		)
 		(uuid "ccf2acd1-68a0-4395-bd5a-cf1424d063fe")
 	)
-	(label "I2C_SCL"
+	(label "I2C1_SCL"
 		(at 93.98 120.65 180)
 		(effects
 			(font
@@ -7827,7 +7899,7 @@
 		)
 		(uuid "d8f643b6-2739-4e57-bb26-1991c2fc7109")
 	)
-	(label "I2C_SDA"
+	(label "I2C1_SDA"
 		(at 93.98 118.11 180)
 		(effects
 			(font
@@ -7847,7 +7919,7 @@
 		)
 		(uuid "dbd5cedc-c6bc-4cd0-8abe-973073589206")
 	)
-	(label "UART1_RX"
+	(label "LPUART1_RX"
 		(at 93.98 146.05 180)
 		(effects
 			(font
@@ -13832,56 +13904,6 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_PD2" input
-			(at 137.16 86.36 0)
-			(uuid "66a4b9f2-4530-4a24-b45c-88fb7a8ecd26")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO_PC15" input
-			(at 99.06 73.66 180)
-			(uuid "433a66ad-5148-4df0-9595-0a6121b71931")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_PC14" input
-			(at 99.06 71.12 180)
-			(uuid "b2aac76d-518f-413c-a310-37298343d785")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_PC13" input
-			(at 99.06 68.58 180)
-			(uuid "97689746-d9c1-405d-8e56-3eb5b413944a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_PC1" input
-			(at 99.06 78.74 180)
-			(uuid "6aaf9bf3-d2d9-4f71-ba99-4eb8ef5f6f2e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "GPIO_PC2" input
 			(at 99.06 81.28 180)
 			(uuid "b2fdf32d-7c5e-49aa-afcf-9e9a464f61f9")
@@ -13895,16 +13917,6 @@
 		(pin "GPIO_PC3" input
 			(at 99.06 83.82 180)
 			(uuid "4b06defa-ebc4-4e2a-9032-f20d4e8a6e5f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_PC0" input
-			(at 99.06 76.2 180)
-			(uuid "d0a81a75-2dd3-48ff-83ab-80c682db27dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14032,26 +14044,6 @@
 				(justify left)
 			)
 		)
-		(pin "USART1_TX" input
-			(at 99.06 143.51 180)
-			(uuid "b6d939a4-f23f-41ba-ab8f-f63c931c862d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USART1_RX" input
-			(at 99.06 146.05 180)
-			(uuid "ce1728d8-38bf-4094-9c74-ecab81ea1bd5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USART2_RX" input
 			(at 99.06 163.83 180)
 			(uuid "a9688be0-071b-4b3e-8291-adfb73d0625b")
@@ -14152,6 +14144,86 @@
 				(justify right)
 			)
 		)
+		(pin "LPUART1_RX" input
+			(at 99.06 146.05 180)
+			(uuid "de263d8d-72c5-4aab-878d-cf6ef516d037")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LPUART1_TX" input
+			(at 99.06 143.51 180)
+			(uuid "3b8bca2a-8e58-4b3c-8506-7a5b4b6fa147")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_PC15" input
+			(at 99.06 78.74 180)
+			(uuid "c53f8b3b-5ea1-4955-bfc8-6980699196b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_PC14" input
+			(at 99.06 76.2 180)
+			(uuid "29b85633-e6b1-420f-8b49-5d1d2e1303e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_PC13" input
+			(at 99.06 73.66 180)
+			(uuid "595b59c8-40a3-44b4-96c4-d6a4a3b681ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_PA10" input
+			(at 137.16 86.36 0)
+			(uuid "e5b66c00-786d-4825-9736-e364e751bac9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_PD2" input
+			(at 99.06 71.12 180)
+			(uuid "ad071c90-8d45-4c4d-86fb-46272d47137f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_PB9" input
+			(at 99.06 68.58 180)
+			(uuid "92edd256-0545-4686-a9cc-aecc685831ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164"
@@ -14185,7 +14257,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Thermistor.kicad_sch"
+		(property "Sheetfile" "Other_ADC_Buffer.kicad_sch"
 			(at 158.75 156.7946 0)
 			(effects
 				(font
@@ -14288,7 +14360,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d7793a46-7c9e-49d4-bed2-2c0a229e1040")
-		(property "Sheetname" "Motor_ADC_Buffer"
+		(property "Sheetname" "Power_ADC_Buffer"
 			(at 158.75 98.3484 0)
 			(effects
 				(font
@@ -14297,7 +14369,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADC_Buffer.kicad_sch"
+		(property "Sheetfile" "Power_ADC_Buffer.kicad_sch"
 			(at 158.75 122.5046 0)
 			(effects
 				(font

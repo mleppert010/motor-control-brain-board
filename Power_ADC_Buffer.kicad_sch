@@ -2571,7 +2571,7 @@
 			(uuid "b22b94e2-6526-44e1-963f-e3211fa8ff26")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "U8")
 					(unit 1)
@@ -2640,7 +2640,7 @@
 			(uuid "1c3ef50f-f721-423d-b365-0779f6bd8f45")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "C21")
 					(unit 1)
@@ -2705,7 +2705,7 @@
 			(uuid "e6e9cf81-e7fa-4507-9cdd-b3310a6c39a6")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR075")
 					(unit 1)
@@ -2774,7 +2774,7 @@
 			(uuid "41d1553e-642b-4dee-9671-5e47d60e11a6")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "C27")
 					(unit 1)
@@ -2851,7 +2851,7 @@
 			(uuid "90c28ab4-43f8-4a65-b437-21084046e364")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "U6")
 					(unit 1)
@@ -2920,7 +2920,7 @@
 			(uuid "2ceb3847-e5bc-4713-8fb1-ab4ecfae32d0")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "C22")
 					(unit 1)
@@ -2987,7 +2987,7 @@
 			(uuid "7154c2c4-c82d-478e-9289-7ebdbdf26a32")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R19")
 					(unit 1)
@@ -3054,7 +3054,7 @@
 			(uuid "b07db2fa-65dc-4dd0-bbc3-d5bd16179405")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R21")
 					(unit 1)
@@ -3123,7 +3123,7 @@
 			(uuid "7f21e1c8-db52-45d3-9e85-b6d6f91ef0e9")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "C26")
 					(unit 1)
@@ -3188,7 +3188,7 @@
 			(uuid "1e557bfd-611a-4820-bdac-a30e1b7ba003")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR077")
 					(unit 1)
@@ -3255,7 +3255,7 @@
 			(uuid "2e2702ca-fdd7-4c2a-8780-89303b00a37f")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R22")
 					(unit 1)
@@ -3322,7 +3322,7 @@
 			(uuid "f4c6cd98-5cc3-49c5-af6c-3673a4236599")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R16")
 					(unit 1)
@@ -3389,7 +3389,7 @@
 			(uuid "d7c53bd3-2370-44e2-b77b-962dcd48e4a6")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R20")
 					(unit 1)
@@ -3458,7 +3458,7 @@
 			(uuid "4d784cd1-e20e-4b9e-b6cb-4feb924e0e2a")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "C31")
 					(unit 1)
@@ -3523,7 +3523,7 @@
 			(uuid "596069de-6efa-499a-af2a-4b2ded2e9236")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR079")
 					(unit 1)
@@ -3588,7 +3588,7 @@
 			(uuid "5155f862-2980-48d6-aa99-0cd41e388e08")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR084")
 					(unit 1)
@@ -3653,7 +3653,7 @@
 			(uuid "19c0926d-48e8-47ce-ae34-b6760abf3b50")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR081")
 					(unit 1)
@@ -3720,7 +3720,7 @@
 			(uuid "f1489533-3939-4024-acc6-ad197282d268")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R13")
 					(unit 1)
@@ -3785,7 +3785,7 @@
 			(uuid "760249bb-a797-47ea-89fb-266f2a4839ae")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR085")
 					(unit 1)
@@ -3852,7 +3852,7 @@
 			(uuid "116ef5c5-0705-41a0-a795-d4edf456d992")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R17")
 					(unit 1)
@@ -3917,7 +3917,7 @@
 			(uuid "1389f9d8-b89f-4b2e-8845-5d92c3d9e6ee")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR071")
 					(unit 1)
@@ -3984,7 +3984,7 @@
 			(uuid "a84c3871-1b94-493d-8192-0c2408b90e65")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R15")
 					(unit 1)
@@ -4053,7 +4053,7 @@
 			(uuid "4239ae7a-6ff2-48d9-9a74-4580a6a03646")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "C25")
 					(unit 1)
@@ -4120,7 +4120,7 @@
 			(uuid "e9fa81ab-eb2b-46e3-a7bc-85d0c70586bd")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R14")
 					(unit 1)
@@ -4185,7 +4185,7 @@
 			(uuid "5f3555b7-ea91-4e56-a8a9-5fbbb126fce7")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR074")
 					(unit 1)
@@ -4250,7 +4250,7 @@
 			(uuid "ea97aa38-213d-4e81-9ddd-be3fc2d67218")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR080")
 					(unit 1)
@@ -4327,7 +4327,7 @@
 			(uuid "14adf8df-e433-445d-9219-6d415ac9a1d1")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "U9")
 					(unit 1)
@@ -4394,7 +4394,7 @@
 			(uuid "969afb57-c6a2-4f1c-81c7-beded5007a11")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R30")
 					(unit 1)
@@ -4459,7 +4459,7 @@
 			(uuid "258665b9-bb19-4d97-9640-39128393c291")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR070")
 					(unit 1)
@@ -4526,7 +4526,7 @@
 			(uuid "ba461af7-4ca0-4f7e-94b7-fcb326cd68b0")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R25")
 					(unit 1)
@@ -4595,7 +4595,7 @@
 			(uuid "41c5c595-746f-4d2e-9816-854327d5b514")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "C20")
 					(unit 1)
@@ -4662,7 +4662,7 @@
 			(uuid "462a797f-f69e-4ee8-970e-600f815442cc")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R31")
 					(unit 1)
@@ -4729,7 +4729,7 @@
 			(uuid "de1723a7-b01e-4690-8f2f-6636b18bbaf6")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R28")
 					(unit 1)
@@ -4794,7 +4794,7 @@
 			(uuid "7f3e45de-fa50-44d3-af45-18d64efb823f")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR069")
 					(unit 1)
@@ -4863,7 +4863,7 @@
 			(uuid "5600ce3d-c772-430c-8192-f421adae04de")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "C29")
 					(unit 1)
@@ -4930,7 +4930,7 @@
 			(uuid "8f1b90ab-38bf-4262-8fa6-38c293e8ea60")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R26")
 					(unit 1)
@@ -4999,7 +4999,7 @@
 			(uuid "b3d9083e-9e8b-451e-9e9f-69da90b3921a")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "C30")
 					(unit 1)
@@ -5076,7 +5076,7 @@
 			(uuid "fa072e1a-c972-4c30-929f-e9d142d4f852")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "U7")
 					(unit 1)
@@ -5145,7 +5145,7 @@
 			(uuid "194b3510-8c5d-4326-b72e-e4688f306f6c")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "C28")
 					(unit 1)
@@ -5210,7 +5210,7 @@
 			(uuid "3a3ed598-4a52-4887-a78f-34c1d74e47c8")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR068")
 					(unit 1)
@@ -5277,7 +5277,7 @@
 			(uuid "19c3aac0-bf03-433e-b579-5fe479162df5")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R24")
 					(unit 1)
@@ -5342,7 +5342,7 @@
 			(uuid "b4a68fc7-612a-4dda-9d29-b5f3f655d47d")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR076")
 					(unit 1)
@@ -5407,7 +5407,7 @@
 			(uuid "6b76974d-a7a2-4fc2-bade-6ec979815609")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR073")
 					(unit 1)
@@ -5474,7 +5474,7 @@
 			(uuid "31ddec99-325e-46de-84df-96cbcf195323")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R27")
 					(unit 1)
@@ -5541,7 +5541,7 @@
 			(uuid "668600e1-3a26-4b35-b484-d0f2864c02a4")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R23")
 					(unit 1)
@@ -5608,7 +5608,7 @@
 			(uuid "24e64cef-1cde-49d5-8c5a-9be18b4af9db")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R12")
 					(unit 1)
@@ -5675,7 +5675,7 @@
 			(uuid "ae477eb8-48bc-4a7d-90d6-ae0e79674faa")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R18")
 					(unit 1)
@@ -5742,7 +5742,7 @@
 			(uuid "6e34089a-e23c-4cda-acc8-b93d5c00d942")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R29")
 					(unit 1)
@@ -5807,7 +5807,7 @@
 			(uuid "9f53cbb2-1d8c-485a-b789-3dc7cec3e735")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR072")
 					(unit 1)
@@ -5872,7 +5872,7 @@
 			(uuid "3ac7028c-49bd-4caf-b268-5773c02c5224")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR082")
 					(unit 1)
@@ -5937,7 +5937,7 @@
 			(uuid "48873b32-1ce8-426f-84e0-82af35037c65")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR083")
 					(unit 1)
@@ -6002,7 +6002,7 @@
 			(uuid "421628c9-7183-4e26-a7be-3175d1d17174")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR078")
 					(unit 1)
@@ -6071,7 +6071,7 @@
 			(uuid "08b53404-5063-4c91-b2c2-271616415eea")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "C24")
 					(unit 1)
@@ -6140,7 +6140,7 @@
 			(uuid "3b087d57-02bb-437a-acbf-af6424965ff1")
 		)
 		(instances
-			(project "Motor_Control_Brain_Board"
+			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "C23")
 					(unit 1)

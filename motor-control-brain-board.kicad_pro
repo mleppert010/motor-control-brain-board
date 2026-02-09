@@ -128,18 +128,18 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.3,
-        "min_hole_to_hole": 0.2,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.45,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
         "min_text_thickness": 0.153,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.2,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.25,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -636,6 +636,10 @@
       {
         "netclass": "Differential",
         "pattern": ".*\\/USB_D."
+      },
+      {
+        "netclass": "Digital",
+        "pattern": ".*\\/LPUART.*"
       }
     ]
   },
@@ -777,7 +781,7 @@
     ],
     [
       "d7793a46-7c9e-49d4-bed2-2c0a229e1040",
-      "Motor_ADC_Buffer"
+      "Power_ADC_Buffer"
     ],
     [
       "b4d68d60-4109-4352-9fbb-6372306ada14",
