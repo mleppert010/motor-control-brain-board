@@ -2606,7 +2606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 76.2 82.8548 0)
 			(effects
 				(font
@@ -2740,7 +2740,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.1 156.5148 0)
 			(effects
 				(font
@@ -2886,7 +2886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 76.2 113.3348 0)
 			(effects
 				(font
@@ -2930,15 +2930,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 72.39 102.87 90)
+		(at 161.29 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "20ec9c8f-1aef-44b7-b6b7-597f307ed2d3")
-		(property "Reference" "R19"
-			(at 72.39 100.33 90)
+		(uuid "1d44bdb5-6aed-4eba-93cf-a450b536cd6d")
+		(property "Reference" "R31"
+			(at 161.29 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,15 +2946,15 @@
 			)
 		)
 		(property "Value" "R"
-			(at 72.39 102.87 90)
+			(at 161.29 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 72.39 104.648 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 161.29 154.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +2963,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 102.87 0)
+			(at 161.29 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +2972,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 72.39 102.87 0)
+			(at 161.29 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2981,82 +2981,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3eedf462-26df-4484-afa2-717b385ca7c4")
+			(uuid "15b89d8f-2bc3-42af-b269-9e4ce768551c")
 		)
 		(pin "2"
-			(uuid "7154c2c4-c82d-478e-9289-7ebdbdf26a32")
+			(uuid "0aeaba6b-fbeb-4afb-9db2-9556831d4d3a")
 		)
 		(instances
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 72.39 152.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "256cb536-9a31-4074-96de-600ccf31b6a1")
-		(property "Reference" "R21"
-			(at 72.39 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 72.39 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 72.39 154.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 72.39 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a1394ad-a247-42bb-8c1c-063873db61af")
-		)
-		(pin "2"
-			(uuid "b07db2fa-65dc-4dd0-bbc3-d5bd16179405")
-		)
-		(instances
-			(project "motor-control-brain-board"
-				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
-					(reference "R21")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -3089,7 +3022,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.1 113.3348 0)
 			(effects
 				(font
@@ -3198,73 +3131,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a1574b0-59f0-4ba3-b690-e7f50dcf7ee8")
-		(property "Reference" "R22"
-			(at 130.81 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 130.81 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 130.81 58.928 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18df77f1-a106-4f16-acef-fcb69c1ee7e6")
-		)
-		(pin "2"
-			(uuid "2e2702ca-fdd7-4c2a-8780-89303b00a37f")
-		)
-		(instances
-			(project "motor-control-brain-board"
-				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 72.39 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3288,7 +3154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 72.39 30.988 90)
 			(effects
 				(font
@@ -3325,73 +3191,6 @@
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 72.39 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a5f052c-3adb-4dee-8451-cae86da444ea")
-		(property "Reference" "R20"
-			(at 72.39 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 72.39 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 72.39 109.728 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70a9662e-5f16-4955-81aa-a0c2130b3a15")
-		)
-		(pin "2"
-			(uuid "d7c53bd3-2370-44e2-b77b-962dcd48e4a6")
-		)
-		(instances
-			(project "motor-control-brain-board"
-				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3663,6 +3462,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 130.81 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "580421f7-5d26-43a6-95f0-3d82cdf57da8")
+		(property "Reference" "R25"
+			(at 130.81 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 130.81 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 130.81 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e89c1af-b8e3-4c5c-b224-aeb1457aa02d")
+		)
+		(pin "2"
+			(uuid "d4c00258-dcd5-4bf1-b5f1-e366b4efb2e9")
+		)
+		(instances
+			(project "motor-control-brain-board"
+				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 41.91 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3686,7 +3552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 41.91 64.008 90)
 			(effects
 				(font
@@ -3818,7 +3684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 72.39 36.068 90)
 			(effects
 				(font
@@ -3927,15 +3793,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 41.91 135.89 90)
+		(at 72.39 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "704fc6de-115b-4680-9095-143237f337cb")
-		(property "Reference" "R15"
-			(at 41.91 133.35 90)
+		(uuid "73304b75-325c-42d3-b8ad-a889646ac871")
+		(property "Reference" "R19"
+			(at 72.39 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,15 +3809,15 @@
 			)
 		)
 		(property "Value" "R"
-			(at 41.91 135.89 90)
+			(at 72.39 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 41.91 137.668 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 72.39 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +3826,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 135.89 0)
+			(at 72.39 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3835,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 41.91 135.89 0)
+			(at 72.39 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,15 +3844,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4a68923-378b-4898-8ddc-94e1a749e371")
+			(uuid "fc89c272-a18e-46ad-9180-7133a50ee826")
 		)
 		(pin "2"
-			(uuid "a84c3871-1b94-493d-8192-0c2408b90e65")
+			(uuid "4a194ce8-a7ec-41b6-9b78-254e1d3ee7b8")
 		)
 		(instances
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
-					(reference "R15")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4019,7 +3885,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.1 82.8548 0)
 			(effects
 				(font
@@ -4063,15 +3929,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 41.91 130.81 90)
+		(at 130.81 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "76ab9aee-7c8a-456b-8736-935ee2520edd")
-		(property "Reference" "R14"
-			(at 41.91 128.27 90)
+		(uuid "7a75082e-8557-49c2-a88c-8a2a23bea7c7")
+		(property "Reference" "R23"
+			(at 130.81 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,15 +3945,15 @@
 			)
 		)
 		(property "Value" "R"
-			(at 41.91 130.81 90)
+			(at 130.81 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 41.91 132.588 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 130.81 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +3962,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 130.81 0)
+			(at 130.81 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +3971,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 41.91 130.81 0)
+			(at 130.81 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,15 +3980,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "769bd641-0c92-4d6c-9430-0b5e58b1f81e")
+			(uuid "5190ce62-7cb0-483f-8ef8-5c15c5aa8091")
 		)
 		(pin "2"
-			(uuid "e9fa81ab-eb2b-46e3-a7bc-85d0c70586bd")
+			(uuid "6a6d75ac-cd5f-4bbc-8dbd-918b2d52c153")
 		)
 		(instances
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
-					(reference "R14")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4188,6 +4054,73 @@
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e70742e-7836-4159-9704-eb4923ad9b16")
+		(property "Reference" "R21"
+			(at 72.39 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 72.39 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 72.39 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73c0a9af-2a39-469d-8963-fa73721b023e")
+		)
+		(pin "2"
+			(uuid "a77df792-42a2-49a6-bd7a-98e674774a43")
+		)
+		(instances
+			(project "motor-control-brain-board"
+				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -4337,15 +4270,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 107.95 90)
+		(at 72.39 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8383bcd4-d0bc-4bb8-b7ee-6039c21ea619")
-		(property "Reference" "R30"
-			(at 161.29 105.41 90)
+		(uuid "848ed618-cdf7-4537-87f5-761df91d8dc4")
+		(property "Reference" "R20"
+			(at 72.39 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,15 +4286,15 @@
 			)
 		)
 		(property "Value" "R"
-			(at 161.29 107.95 90)
+			(at 72.39 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 161.29 109.728 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 72.39 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 107.95 0)
+			(at 72.39 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +4312,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 161.29 107.95 0)
+			(at 72.39 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,15 +4321,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9e2782c-4b81-4559-8826-b03efdc62732")
+			(uuid "c8ae52f7-e2cc-48a7-886a-60a444c2c320")
 		)
 		(pin "2"
-			(uuid "969afb57-c6a2-4f1c-81c7-beded5007a11")
+			(uuid "114f357e-71b1-405c-b9ca-3cd79673ac71")
 		)
 		(instances
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
-					(reference "R30")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4469,15 +4402,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 135.89 90)
+		(at 130.81 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8530c1ae-8201-4067-bad7-de2ce43a3905")
-		(property "Reference" "R25"
-			(at 130.81 133.35 90)
+		(uuid "86c3f035-a844-4092-b6e3-554615e8ccc8")
+		(property "Reference" "R24"
+			(at 130.81 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,15 +4418,15 @@
 			)
 		)
 		(property "Value" "R"
-			(at 130.81 135.89 90)
+			(at 130.81 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 130.81 137.668 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 130.81 132.588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +4435,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 135.89 0)
+			(at 130.81 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4444,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 130.81 135.89 0)
+			(at 130.81 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,15 +4453,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba73d537-c45d-4449-ba4d-38bd05440ed7")
+			(uuid "a073fff4-eb11-4bbe-9dd5-9e1fe7e287c1")
 		)
 		(pin "2"
-			(uuid "ba461af7-4ca0-4f7e-94b7-fcb326cd68b0")
+			(uuid "3fe7143f-b95e-411b-a345-001672ae6079")
 		)
 		(instances
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
-					(reference "R25")
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.91 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8899f3f0-0394-4377-ab82-4cb93a03522f")
+		(property "Reference" "R14"
+			(at 41.91 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 41.91 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 41.91 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d60b32b-6061-4774-8c0d-177e932ceb93")
+		)
+		(pin "2"
+			(uuid "67bdc63a-2926-429c-b97d-bf6d3fecaccd")
+		)
+		(instances
+			(project "motor-control-brain-board"
+				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4561,7 +4561,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 76.2 39.6748 0)
 			(effects
 				(font
@@ -4605,15 +4605,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 152.4 90)
+		(at 161.29 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8ca324ce-017b-4b54-bc6d-d56605c1d7c0")
-		(property "Reference" "R31"
-			(at 161.29 149.86 90)
+		(uuid "91ee307f-5953-4705-8283-845b7053c98e")
+		(property "Reference" "R30"
+			(at 161.29 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,15 +4621,15 @@
 			)
 		)
 		(property "Value" "R"
-			(at 161.29 152.4 90)
+			(at 161.29 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 161.29 154.178 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 161.29 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4638,7 +4638,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 152.4 0)
+			(at 161.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4647,7 +4647,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 161.29 152.4 0)
+			(at 161.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,82 +4656,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "95262e64-e0ab-4c60-8e89-1cb934f12541")
+			(uuid "ac5d843e-f674-4a1e-8be3-eb88aae232d5")
 		)
 		(pin "2"
-			(uuid "462a797f-f69e-4ee8-970e-600f815442cc")
+			(uuid "5af75ea3-7e3b-45e4-b78b-8df12a4e230f")
 		)
 		(instances
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 161.29 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "95961d35-31a0-4301-98ae-67ef23fd0001")
-		(property "Reference" "R28"
-			(at 161.29 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 161.29 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 161.29 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 161.29 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66e5b9f0-c8e6-425d-913b-530f9c7a34ba")
-		)
-		(pin "2"
-			(uuid "de1723a7-b01e-4690-8f2f-6636b18bbaf6")
-		)
-		(instances
-			(project "motor-control-brain-board"
-				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
-					(reference "R28")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -4872,73 +4805,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 161.29 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9fe08619-3eb3-490b-9217-8eb9b021ba0a")
-		(property "Reference" "R26"
-			(at 161.29 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 161.29 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 161.29 30.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 161.29 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9135cc92-332f-4ff4-9182-b327c2c8bc4f")
-		)
-		(pin "2"
-			(uuid "8f1b90ab-38bf-4262-8fa6-38c293e8ea60")
-		)
-		(instances
-			(project "motor-control-brain-board"
-				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 229.87 91.44 0)
 		(unit 1)
@@ -5002,6 +4868,140 @@
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 130.81 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac22f546-6fca-4bf8-aff2-b29cce5e6e36")
+		(property "Reference" "R22"
+			(at 130.81 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 130.81 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 130.81 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee318d29-397c-4dbe-b4e4-12180221aa98")
+		)
+		(pin "2"
+			(uuid "33cf813e-c843-42f8-b26a-23373bba8753")
+		)
+		(instances
+			(project "motor-control-brain-board"
+				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 161.29 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aea38eff-6283-4bc5-ae6e-79b634bbbdfe")
+		(property "Reference" "R26"
+			(at 161.29 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 161.29 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 161.29 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15327ce0-e9ba-4d16-b4ea-53edd1742e70")
+		)
+		(pin "2"
+			(uuid "395e310f-5829-46bd-8b0a-9598e2c627a0")
+		)
+		(instances
+			(project "motor-control-brain-board"
+				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -5219,73 +5219,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 130.81 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba8d5e51-c30e-4cec-b11e-ae705df42a0e")
-		(property "Reference" "R24"
-			(at 130.81 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 130.81 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 130.81 132.588 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "acdb199f-3ba2-465c-8dc1-0e0a393a9d94")
-		)
-		(pin "2"
-			(uuid "19c3aac0-bf03-433e-b579-5fe479162df5")
-		)
-		(instances
-			(project "motor-control-brain-board"
-				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
 		(at 158.75 49.53 0)
 		(unit 1)
@@ -5417,15 +5350,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 34.29 90)
+		(at 41.91 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c193c4b5-79c7-4a66-8e51-82f63aff1fc9")
-		(property "Reference" "R27"
-			(at 161.29 31.75 90)
+		(uuid "c7398862-1a63-4c87-b1c9-51de26640560")
+		(property "Reference" "R15"
+			(at 41.91 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,15 +5366,15 @@
 			)
 		)
 		(property "Value" "R"
-			(at 161.29 34.29 90)
+			(at 41.91 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 161.29 36.068 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 41.91 137.668 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +5383,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 34.29 0)
+			(at 41.91 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5392,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 161.29 34.29 0)
+			(at 41.91 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,15 +5401,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c3c67f7b-dd83-49d3-ae20-6a38cc9844bf")
+			(uuid "2d06894f-b045-45fe-82b2-da412c843339")
 		)
 		(pin "2"
-			(uuid "31ddec99-325e-46de-84df-96cbcf195323")
+			(uuid "71e10444-70b0-4f3d-b10b-2ac3157b95bc")
 		)
 		(instances
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
-					(reference "R27")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5484,15 +5417,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 62.23 90)
+		(at 161.29 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cc9029ce-fa6d-4287-9165-717c86a580e3")
-		(property "Reference" "R23"
-			(at 130.81 59.69 90)
+		(uuid "c95b3408-ea6c-4c76-a719-8d5f2f915a5f")
+		(property "Reference" "R29"
+			(at 161.29 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,15 +5433,15 @@
 			)
 		)
 		(property "Value" "R"
-			(at 130.81 62.23 90)
+			(at 161.29 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 130.81 64.008 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 161.29 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5517,7 +5450,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 62.23 0)
+			(at 161.29 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,7 +5459,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 130.81 62.23 0)
+			(at 161.29 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,15 +5468,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "06c3e714-2ec0-4671-a893-f144f4c4928c")
+			(uuid "72eca3e7-0393-4142-a0b7-6c0cfa792fbf")
 		)
 		(pin "2"
-			(uuid "668600e1-3a26-4b35-b484-d0f2864c02a4")
+			(uuid "5fbe2ece-8168-432f-8a55-ce6608faab55")
 		)
 		(instances
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
-					(reference "R23")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -5574,7 +5507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 41.91 58.928 90)
 			(effects
 				(font
@@ -5641,7 +5574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 72.39 80.518 90)
 			(effects
 				(font
@@ -5678,73 +5611,6 @@
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 161.29 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd0fe09a-868e-45c4-a42f-1edfbd7ab171")
-		(property "Reference" "R29"
-			(at 161.29 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 161.29 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 161.29 104.648 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 161.29 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24d95bd7-79ef-4848-bbdf-e5dee1e02c1c")
-		)
-		(pin "2"
-			(uuid "6e34089a-e23c-4cda-acc8-b93d5c00d942")
-		)
-		(instances
-			(project "motor-control-brain-board"
-				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -5810,6 +5676,73 @@
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 161.29 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df7fd423-dfa3-4d36-95ba-77682678dab9")
+		(property "Reference" "R28"
+			(at 161.29 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 161.29 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 161.29 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70fb846b-8e27-4bc2-9689-9c1ad20febc0")
+		)
+		(pin "2"
+			(uuid "4cdbf8e7-63ff-400a-8dc5-909ecf257c94")
+		)
+		(instances
+			(project "motor-control-brain-board"
+				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -6011,6 +5944,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 161.29 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7d490a2-94e6-4a7c-85e0-09b4c083b496")
+		(property "Reference" "R27"
+			(at 161.29 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 161.29 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 161.29 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c9e1f9d-a8fe-42cb-b9f8-89ce7b28519f")
+		)
+		(pin "2"
+			(uuid "2a92aa70-ce05-4057-8655-279cab017626")
+		)
+		(instances
+			(project "motor-control-brain-board"
+				(path "/7261d109-8405-40e9-921c-d95f374a7164/d7793a46-7c9e-49d4-bed2-2c0a229e1040"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 161.29 40.64 90)
 		(unit 1)
@@ -6037,7 +6037,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.1 39.6748 0)
 			(effects
 				(font
@@ -6106,7 +6106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 76.2 156.5148 0)
 			(effects
 				(font
