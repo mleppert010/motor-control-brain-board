@@ -5145,7 +5145,7 @@
 		)
 		(uuid "71df0e02-60f8-4c8d-8772-ae167d8a175e")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USB_D-"
 		(shape input)
 		(at 158.75 97.79 0)
 		(effects
@@ -5321,7 +5321,7 @@
 		)
 		(uuid "c6f24a72-1691-48e0-bf96-1880812b6281")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB_D+"
 		(shape input)
 		(at 158.75 95.25 0)
 		(effects
@@ -8002,7 +8002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "c"
+		(property "Value" "30p"
 			(at 52.07 123.19 0)
 			(effects
 				(font
@@ -8140,7 +8140,7 @@
 				)
 			)
 		)
-		(property "Value" "16MHz"
+		(property "Value" "ECS-160-20-33-DU-TR"
 			(at 59.69 109.22 0)
 			(effects
 				(font
@@ -8148,7 +8148,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
 			(at 59.69 115.57 0)
 			(effects
 				(font
@@ -8157,7 +8157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ecx-32.pdf"
 			(at 59.69 115.57 0)
 			(effects
 				(font
@@ -8166,7 +8166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" "16MHz Four pin crystal, GND on pins 2 and 4"
 			(at 59.69 115.57 0)
 			(effects
 				(font
@@ -8303,7 +8303,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "c"
+		(property "Value" "30p"
 			(at 69.85 123.19 0)
 			(effects
 				(font
