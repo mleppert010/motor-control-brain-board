@@ -5,6 +5,358 @@
 	(uuid "1089c5d3-d4b8-4900-aa25-3e22711a1923")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Amplifier_Operational:TLV6001DCK"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.62 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV6001DCK"
+				(at 11.43 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv6001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "op amp operational amplifier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT*353*SC*70*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV6001DCK_0_1"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 -5.08) (xy 7.62 0) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV6001DCK_1_1"
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Amplifier_Operational:TLV9061xDCK"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.62 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV9061xDCK"
+				(at 11.43 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9061.pdf"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems, SC-70"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "single opamp rail to rail input output"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT*353*SC*70*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV9061xDCK_0_1"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 -5.08) (xy 7.62 0) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV9061xDCK_1_1"
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -258,180 +610,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "User_OpAmp:TLV365DBVR"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 7.62 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV365DBVR"
-				(at 11.43 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv365.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zero-Crossover, High-CMRR, RRIO Operational Amplifier,  SOT-353"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "op amp operational amplifier"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT*23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV365DBVR_1_1"
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 -5.08) (xy 7.62 0) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1532,83 +1710,6 @@
 		(uuid "e5e0fdf0-3f1a-466d-8f8e-04c6bb7a4385")
 	)
 	(symbol
-		(lib_id "User_OpAmp:TLV365DBVR")
-		(at 110.49 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e5bba2c-fc14-41a7-871a-e8d3b48e77c0")
-		(property "Reference" "U10"
-			(at 125.73 41.8398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV365DBVR"
-			(at 125.73 44.3798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 115.57 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv365.pdf"
-			(at 110.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zero-Crossover, High-CMRR, RRIO Operational Amplifier,  SOT-353"
-			(at 110.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a7473428-000e-4b37-95ee-6d5687e5b370")
-		)
-		(pin "2"
-			(uuid "bf48ee7f-2726-428c-ad62-d111c1403c83")
-		)
-		(pin "5"
-			(uuid "61815e53-8d96-43b2-8e5e-9d66456e0c1d")
-		)
-		(pin "1"
-			(uuid "1ace475c-28b4-4ccb-9d4c-2be73841acf9")
-		)
-		(pin "3"
-			(uuid "75e5d751-d1aa-43bf-9847-c35788e19b8e")
-		)
-		(instances
-			(project "motor-control-brain-board"
-				(path "/7261d109-8405-40e9-921c-d95f374a7164/b4d68d60-4109-4352-9fbb-6372306ada14"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
 		(at 200.66 62.23 0)
 		(unit 1)
@@ -1668,6 +1769,83 @@
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/b4d68d60-4109-4352-9fbb-6372306ada14"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV6001DCK")
+		(at 146.05 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b7fe2d7-a4ed-456b-8ea5-a9985e08b62f")
+		(property "Reference" "U12"
+			(at 161.29 73.5898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV6001DCK"
+			(at 161.29 76.1298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv6001.pdf"
+			(at 146.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353"
+			(at 146.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a83deee1-da9c-4aeb-802a-42614692bb1b")
+		)
+		(pin "5"
+			(uuid "c3dfd636-b133-4ed4-ada5-df72c04ccff2")
+		)
+		(pin "3"
+			(uuid "a23658ea-c239-4732-8d39-f3b719e380a3")
+		)
+		(pin "1"
+			(uuid "ddbe4c3a-5de0-4c5f-a9a8-868ba7826e0b")
+		)
+		(pin "2"
+			(uuid "f68b7819-a211-4976-90ab-03d5810c6775")
+		)
+		(instances
+			(project ""
+				(path "/7261d109-8405-40e9-921c-d95f374a7164/b4d68d60-4109-4352-9fbb-6372306ada14"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -2405,7 +2583,7 @@
 		)
 	)
 	(symbol
-		(lib_id "User_OpAmp:TLV365DBVR")
+		(lib_id "Amplifier_Operational:TLV9061xDCK")
 		(at 110.49 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2413,8 +2591,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "84e35e51-186e-4b86-af1c-6aea4402bb24")
-		(property "Reference" "U11"
+		(uuid "8097a521-5a96-4e2e-ad10-13e96b6d44f8")
+		(property "Reference" "U10"
 			(at 125.73 92.6398 0)
 			(effects
 				(font
@@ -2422,7 +2600,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV365DBVR"
+		(property "Value" "TLV9061xDCK"
 			(at 125.73 95.1798 0)
 			(effects
 				(font
@@ -2430,8 +2608,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 115.57 99.06 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 110.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,8 +2617,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv365.pdf"
-			(at 110.49 99.06 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9061.pdf"
+			(at 110.49 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +2626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Zero-Crossover, High-CMRR, RRIO Operational Amplifier,  SOT-353"
+		(property "Description" "10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems, SC-70"
 			(at 110.49 99.06 0)
 			(effects
 				(font
@@ -2458,19 +2636,96 @@
 			)
 		)
 		(pin "4"
-			(uuid "9de84137-6c4f-4e5a-aa86-18171be42b57")
-		)
-		(pin "2"
-			(uuid "a671061c-18f9-4023-bce4-f2bc988d3517")
-		)
-		(pin "5"
-			(uuid "a77e4851-a894-4046-be9c-59c484fb8ddf")
+			(uuid "58a56f33-472e-45c3-b8bc-b657183d1656")
 		)
 		(pin "1"
-			(uuid "773ce6a8-492f-4a76-85ac-378afbc01da7")
+			(uuid "ff19ded9-6262-433d-9d17-9a3b10df3adc")
 		)
 		(pin "3"
-			(uuid "23849bbd-c232-48a5-9a9b-4e278444dd21")
+			(uuid "386667d9-440c-479d-8bdf-7477d866e9f5")
+		)
+		(pin "2"
+			(uuid "2d55667a-b69f-4c83-b79f-d343d4fb7e95")
+		)
+		(pin "5"
+			(uuid "6b9d390c-93ad-4fbf-8ef8-acb1628a5163")
+		)
+		(instances
+			(project "motor-control-brain-board"
+				(path "/7261d109-8405-40e9-921c-d95f374a7164/b4d68d60-4109-4352-9fbb-6372306ada14"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9061xDCK")
+		(at 110.49 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84ea44e7-a6e8-45e3-8a6e-e29a50283efd")
+		(property "Reference" "U11"
+			(at 125.73 143.4398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9061xDCK"
+			(at 125.73 145.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 110.49 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9061.pdf"
+			(at 110.49 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems, SC-70"
+			(at 110.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1cdc60fb-4409-48b5-8b65-7612a4ea52ff")
+		)
+		(pin "1"
+			(uuid "2c449543-8d56-40e4-ba38-c56838b86383")
+		)
+		(pin "3"
+			(uuid "0e4adf83-9124-4b09-be26-52d1291590bd")
+		)
+		(pin "2"
+			(uuid "393acb05-a56b-4d64-a25f-4c9463664e34")
+		)
+		(pin "5"
+			(uuid "455eb504-6a6a-45f9-b778-b40d03a562cd")
 		)
 		(instances
 			(project "motor-control-brain-board"
@@ -3010,6 +3265,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TLV9061xDCK")
+		(at 110.49 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c623ed54-bab5-4bc7-805b-91d76e467a24")
+		(property "Reference" "U9"
+			(at 125.73 41.8398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9061xDCK"
+			(at 125.73 44.3798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9061.pdf"
+			(at 110.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems, SC-70"
+			(at 110.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "56c7081b-6610-4788-93ae-1c0ea7ec012e")
+		)
+		(pin "1"
+			(uuid "1cf270a5-ec6e-465d-8ab5-85af6bd4b1a3")
+		)
+		(pin "3"
+			(uuid "5ce14b56-e713-4378-bcb5-2d965c9125fb")
+		)
+		(pin "2"
+			(uuid "9ff131cf-136c-4a5d-9cec-d237e35b413c")
+		)
+		(pin "5"
+			(uuid "c78117bf-3c7a-4bfe-8956-3d69dac9f0f8")
+		)
+		(instances
+			(project "motor-control-brain-board"
+				(path "/7261d109-8405-40e9-921c-d95f374a7164/b4d68d60-4109-4352-9fbb-6372306ada14"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 200.66 68.58 0)
 		(unit 1)
@@ -3073,83 +3405,6 @@
 			(project "motor-control-brain-board"
 				(path "/7261d109-8405-40e9-921c-d95f374a7164/b4d68d60-4109-4352-9fbb-6372306ada14"
 					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "User_OpAmp:TLV365DBVR")
-		(at 110.49 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9df9eb0-51d0-4d53-bc8b-70953cf07769")
-		(property "Reference" "U12"
-			(at 125.73 143.4398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV365DBVR"
-			(at 125.73 145.9798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 115.57 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv365.pdf"
-			(at 110.49 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zero-Crossover, High-CMRR, RRIO Operational Amplifier,  SOT-353"
-			(at 110.49 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "fc833ff9-ed6e-43aa-81bb-4f0bc1922d51")
-		)
-		(pin "2"
-			(uuid "0b17990a-200c-4a6d-ac1e-936a2d761ff6")
-		)
-		(pin "5"
-			(uuid "e0539b0b-f357-463b-b4b1-1e0d8acede34")
-		)
-		(pin "1"
-			(uuid "840690c9-7ec6-4ac5-a76c-8d96f8f1df2d")
-		)
-		(pin "3"
-			(uuid "2a072d10-8e4c-4597-a59f-902d98eed9d0")
-		)
-		(instances
-			(project "motor-control-brain-board"
-				(path "/7261d109-8405-40e9-921c-d95f374a7164/b4d68d60-4109-4352-9fbb-6372306ada14"
-					(reference "U12")
 					(unit 1)
 				)
 			)
